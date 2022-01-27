@@ -23,12 +23,12 @@ def cls(): print("\n" * 100)
 
 def choose_a_card():
     print('LIST OF CARDS: ')
-    print(cards_data.cards_data1)
+    print(cards_data.cards_data1.to_string(index=False))
     cards_number = input(Fore.YELLOW + 'CHOOSE A CARD\n(4 NUMBERS) : \n')
     if (cards_data.cards_data1.Number == cards_number).any():
         return cards_number
     else:
-        print(Fore.RED + 'Enter only numbers.')
+        print(Fore.RED + 'Enter 4 numbers of a card.')
         choose_a_card()
 
 

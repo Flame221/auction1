@@ -8,5 +8,3 @@ data = {
 
 cards_data1 = pd.DataFrame(data)
 cards_data1.index = cards_data1.index + 1
-
-# def choose

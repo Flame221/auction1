@@ -2,6 +2,7 @@ from colorama import init, Fore
 import goods_data
 import cards_data
 
+# Project made by Dmytro Chornyi
 
 def choose_an_good():
     print('LIST OF GOODS: ')
@@ -111,3 +112,4 @@ if __name__ == '__main__':
             sell_good()
         if x == '3':
             break
+# Project made by Dmytro Chornyi
